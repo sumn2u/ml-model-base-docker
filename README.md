@@ -13,6 +13,7 @@ The goal is having a base Docker image with:
    * Scipy
    * Scikit-learn
    * LightGBM
+   * XGBoost
    * TensorFlow
    * Keras
 
