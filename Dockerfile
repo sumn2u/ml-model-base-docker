@@ -1,5 +1,5 @@
 # this is an official Python runtime, used as the parent image
-FROM python:3.6.6-stretch
+FROM python:3.6-slim-stretch
 
 LABEL maintainer="j.garciadebustos@godeltech.com"
 
