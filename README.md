@@ -5,9 +5,9 @@ Base repository for Docker Hub automated build https://hub.docker.com/r/jgbustos
 The goal is having a base Docker image with:
 
 * Linux (currently Debian Stretch)
-* Python 3 (currently 3.6.6)
+* Python 3 (currently 3.6)
 * Python pip packages Flask and Flask-RESTplus to build a RESTful API
-* Several Python pip packages used in data science and  machine learning, e.g.:
+* Several Python pip packages used in data science and machine learning, e.g.:
    * Numpy
    * Pandas
    * Scipy
@@ -16,5 +16,6 @@ The goal is having a base Docker image with:
    * XGBoost
    * TensorFlow
    * Keras
+   * NLTK
 
 This will be used as a base to build other Docker images.
