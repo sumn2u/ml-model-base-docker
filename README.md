@@ -1,12 +1,9 @@
 # ml-model-base-docker
 
-Base repository for Docker Hub automated build https://hub.docker.com/r/jgbustos/ml-model-base/
+Base Docker image to be used in Machine Learning projects, built as:
 
-The goal is having a base Docker image with:
-
-* Linux (currently Debian Stretch)
-* Python 3 (currently 3.6)
-* Python pip packages Flask and Flask-RESTplus to build a RESTful API
+* Linux (currently Debian Buster "slim")
+* Python 3 (currently 3.8)
 * Several Python pip packages used in data science and machine learning, e.g.:
    * Numpy
    * Pandas
