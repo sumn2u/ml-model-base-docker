@@ -1,5 +1,7 @@
 # ml-model-base-docker
 
+[![Build and publish Docker image](https://github.com/jgbustos/ml-model-base-docker/actions/workflows/main.yml/badge.svg)](https://github.com/jgbustos/ml-model-base-docker/actions/workflows/main.yml)
+
 Base Docker image to be used in Machine Learning projects, built as:
 
 * Linux (currently Debian Buster "slim")
